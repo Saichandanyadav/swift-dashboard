@@ -1,0 +1,145 @@
+.user-details-page {
+  padding: 24px;
+  background-color: #f4f6f8;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-details-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #2ecc71;
+  align-self: flex-start;
+  margin-bottom: 32px;
+}
+
+.back-button {
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 50px;
+}
+
+.user-card {
+  background-color: white;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 1300px;
+}
+
+.user-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.user-avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #2ecc71;
+  color: white;
+  font-weight: bold;
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-info h3 {
+  margin: 0;
+  font-size: 24px;
+  color: #2d3436;
+}
+
+.user-info span {
+  font-size: 15px;
+  color: #636e72;
+}
+
+.user-details-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-row {
+  display: flex;
+  gap: 24px;
+}
+
+.form-row > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #2ecc71;
+  font-weight: 600;
+}
+
+input {
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  font-size: 15px;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .user-details-header {
+    font-size: 18px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+    gap: 10px;
+  }
+
+  .back-button {
+    margin-left: 0;
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+
+  .user-card {
+    padding: 20px;
+    max-width: 100%;
+  }
+
+  .user-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .form-row {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  input {
+    font-size: 14px;
+  }
+}

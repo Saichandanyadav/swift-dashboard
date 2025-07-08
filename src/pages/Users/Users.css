@@ -1,0 +1,197 @@
+.users {
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+  min-height: 100vh;
+}
+
+.header-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.search-input {
+  padding: 8px 12px;
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+th {
+  background: #2ecc71;
+  color: white;
+  transition: background 0.3s;
+}
+
+th:hover {
+  background: #27ae60;
+}
+
+td,
+th {
+  padding: 12px 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.pagination-controls {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+.page-size select {
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.pagination {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination button {
+  padding: 6px 12px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  background-color: #2c3e50;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.pagination button:disabled {
+  background-color: #b2bec3;
+  cursor: not-allowed;
+}
+
+.pagination span {
+  font-weight: 500;
+}
+
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 300px;
+  width: 100%;
+}
+
+.reset-icon {
+  position: absolute;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #999;
+  transition: color 0.3s;
+}
+
+.reset-icon:hover {
+  color: #333;
+}
+
+.filter-bar {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.filter-bar label {
+  font-weight: bold;
+  margin-right: 5px;
+  padding-top: 6px;
+}
+
+.combo-box {
+  position: relative;
+}
+
+.combo-label {
+  background-color: #eee;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 180px;
+}
+
+.combo-dropdown {
+  position: absolute;
+  top: 36px;
+  width: 180px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  z-index: 10;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.combo-dropdown input {
+  width: 100%;
+  padding: 6px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.combo-options {
+  max-height: 120px;
+  overflow-y: auto;
+}
+
+.combo-options div {
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.combo-options div:hover {
+  background-color: #f1f1f1;
+}
+
+.filter-bar button {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #2ecc71;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.filter-bar button:last-of-type {
+  background-color: #636e72;
+}
+
+@media (max-width: 768px) {
+  .table-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  table {
+    min-width: 700px;
+  }
+}

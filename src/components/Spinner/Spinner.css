@@ -1,0 +1,21 @@
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.spinner-ring {
+  width: 48px;
+  height: 48px;
+  border: 6px solid #d4fcd4;
+  border-top: 6px solid #2ecc71;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
