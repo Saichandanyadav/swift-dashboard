@@ -1,7 +1,3 @@
-Here's a sample `README.md` content for your React Dashboard project with `Comments` and `Users` pages, styled with responsiveness and enhanced UI components:
-
----
-
 ```markdown
 # 📊 Swift Dashboard
 
@@ -21,13 +17,10 @@ A modern, responsive admin dashboard built using **ReactJS**. It showcases a lis
 
 ---
 
-## 🖥️ Screenshots
+## 🔗 Live Demo & GitHub
 
-| Comments Page | User Details Page |
-|---------------|-------------------|
-| ![Comments](public/screenshots/comments.png) | ![User Details](public/screenshots/user-details.png) |
-
----
+- 🌐 **Live**: [https://swift-dashboard-sigma.vercel.app/](https://swift-dashboard-sigma.vercel.app/)
+- 💻 **GitHub**: [https://github.com/Saichandanyadav/swift-dashboard](https://github.com/Saichandanyadav/swift-dashboard)
 
 ## 🛠️ Tech Stack
 
@@ -46,14 +39,20 @@ A modern, responsive admin dashboard built using **ReactJS**. It showcases a lis
 
 Swift-Dashboard/
 ├── public/
-│   └── Swift.svg
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── manifest.json
+│   ├── Swift.svg
+│   └── screenshots/
+│       ├── comments.png
+│       └── user-details.png
 ├── src/
 │   ├── components/
 │   │   └── Spinner/
 │   ├── pages/
 │   │   ├── Comments/
-│   │   ├── Users/
-│   └── App.js
+│   │   └── Users/
+│   ├── App.js
 │   └── index.js
 ├── README.md
 └── package.json
@@ -65,7 +64,7 @@ Swift-Dashboard/
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/swift-dashboard.git
+git clone https://github.com/Saichandanyadav/swift-dashboard.git
 cd swift-dashboard
 npm install
 npm start
@@ -103,17 +102,10 @@ All data is fetched from [JSONPlaceholder](https://jsonplaceholder.typicode.com/
 
 **Sai Chandan Gundaboina**
 [LinkedIn](https://www.linkedin.com/in/saichandanyadav)
-[GitHub](https://github.com/your-username)
+[GitHub](https://github.com/Saichandanyadav)
 
 ---
 
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
-
-```
-
----
-
-Let me know if you'd like to include badges (e.g., GitHub stars, Netlify deploy, Vercel, etc.) or want a `Contributing` section.
-```
